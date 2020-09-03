@@ -1,0 +1,14 @@
+#https://us.edstem.org/courses/176/discussion/91902
+#https://github.com/Ramrachai/cs50-project1/blob/master/templates/search.html
+#https://docs.djangoproject.com/en/3.0/topics/forms/
+#ler sobre commerce troca parametros django
+#    https://docs.djangoproject.com/en/3.0/ref/forms/fields/
+#https://www.facebook.com/groups/cs50/?post_id=1738321102981594
+#https://programtalk.com/python-examples/markdown2.markdown/
+#https://pypi.org/project/django-markdown2/
+#https://github.com/svetlyak40wt/django-markdown2/blob/master/django_markdown2/templatetags/md2.py
+#https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+#https://www.facebook.com/groups/cs50/?post_id=1684195455060826
+#https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/88d8c3635e04443f8872cd1e5945ebcf/
+
+

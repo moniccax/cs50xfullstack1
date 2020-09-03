@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+          Encyclopedia
+{% endblock %}
+
+{% block body %}
+        <h1>Create Entry:</h1>
+        <form method="post">
+
+            {% csrf_token %}
+            {{ form.as_p }}
+        <input type="submit" value="Submit">
+        </form>
+        <a href="{% url 'wiki:index' %}">Home</a>
+
+
+{% endblock %}
