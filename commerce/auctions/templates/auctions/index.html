@@ -1,7 +1,21 @@
 {% extends "auctions/layout.html" %}
 
 {% block body %}
-    <h2>Active Listings</h2>
+  {% if user.is_authenticated %}
+      Signed in as <strong>{{ user.username }}</strong>.
 
-    TODO
+    <h2>Active Listings</h2>
+    <ul>
+      {% for highlist in highlists %}
+        <li>
+          <a href= "{% url 'highlist' highlist.id %}">
+            Highlist {{highlist.id }}: {{ highlist.title}} to {{ highlist.base }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+        Not signed in.
+    {% endif %}
+
 {% endblock %}
